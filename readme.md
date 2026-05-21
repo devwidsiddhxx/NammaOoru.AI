@@ -2,7 +2,7 @@
 
 An enterprise-grade, serverless AI platform that monitors real-time public sentiment, government-related discussions, and district intelligence across Tamil Nadu.
 
-![NammaOoru Dashboard](GovPulseAI/Screenshot 2026-05-21 141758.png)
+![NammaOoru Dashboard](GovPulseAI/screenshot2.png)
 ## 🚀 Architecture: What we built (No Backend Required)
 
 To make this platform incredibly fast, free, and deployable within minutes, we used a **Live Serverless GenAI Architecture**.
