@@ -200,7 +200,7 @@ function App() {
               className="flex items-center gap-2 text-sm font-medium bg-black text-white hover:opacity-90 px-4 py-2 rounded-md transition-opacity disabled:opacity-50"
             >
               {analyzing ? <Loader2 className="w-4 h-4 animate-spin" /> : <Play className="w-4 h-4" />}
-              2. Run Groq AI Analysis
+              2. Run AI Analysis
             </button>
           </div>
         </header>
