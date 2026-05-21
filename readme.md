@@ -1,9 +1,9 @@
-# NammaOoru.AI (Formerly GovPulse)
+# NammaOoru.AI
 
 An enterprise-grade, serverless AI platform that monitors real-time public sentiment, government-related discussions, and district intelligence across Tamil Nadu.
 
 ![NammaOoru Dashboard](GovPulseAI/Screenshot1.png)
-## 🚀 Architecture: What we built (No Backend Required)
+## 🚀 Architecture: What we built 
 
 To make this platform incredibly fast, free, and deployable within minutes, we used a **Live Serverless GenAI Architecture**.
 
@@ -17,8 +17,8 @@ To make this platform incredibly fast, free, and deployable within minutes, we u
 - **Frontend:** React.js (Vite)
 - **Styling:** TailwindCSS v4 + Lucide Icons (Minimal Black & White "SaaS" Aesthetic)
 - **Charting:** Recharts
-- **AI Engine:** Groq API (LLaMA-3.1 8B Instant) - *100% Free Tier*
-- **Data Source:** Google News RSS -> RSS2JSON Proxy
+- **AI Engine:** Groq API (LLaMA-3.1 8B Instant)
+- **Data Source:** Google News 
 
 ## 💻 How to Run Locally
 
@@ -39,18 +39,3 @@ To make this platform incredibly fast, free, and deployable within minutes, we u
    ```
 5. Open `http://localhost:5173` in your browser.
 
-## 🚀 How to Deploy to Vercel (Go Live in 2 Minutes)
-
-Since this project has NO python backend and uses NO databases, deployment is instant and free!
-
-1. Create a GitHub repository.
-2. Drag and drop the `frontend` folder into the GitHub repository and commit the changes.
-3. Go to [Vercel.com](https://vercel.com) and click **Add New Project**.
-4. Import your new GitHub repository.
-5. Under **Framework Preset**, select **Vite**.
-6. **CRITICAL STEP:** Expand the **Environment Variables** section. Add a new variable:
-   - Name: `VITE_GROQ_API_KEY`
-   - Value: `[Paste your Groq API key here]`
-7. Click **Deploy**.
-
-Within 60 seconds, Vercel will give you a live public URL (e.g., `https://nammaooru-ai.vercel.app`) that you can share with the judges!
